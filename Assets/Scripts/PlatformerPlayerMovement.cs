@@ -62,6 +62,11 @@ public class PlatformerPlayerMovement : MonoBehaviour
 
     private void FixedUpdate() 
     {
+        if (!rigidbody)
+        {
+            return;
+        }
+
         // recalculate velocity
         velocity = rigidbody.velocity;
 
@@ -121,10 +126,7 @@ public class PlatformerPlayerMovement : MonoBehaviour
             }
         }
 
-        if (rigidbody)
-        {
-            rigidbody.velocity = velocity;
-        }
+        rigidbody.velocity = velocity;
 
         _touchingGround = false;
     }
