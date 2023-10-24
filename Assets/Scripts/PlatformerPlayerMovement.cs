@@ -64,7 +64,7 @@ public class PlatformerPlayerMovement : MonoBehaviour
     {
         if (!rigidbody)
         {
-            return;
+            
         }
 
         // recalculate velocity
