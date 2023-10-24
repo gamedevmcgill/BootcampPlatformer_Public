@@ -52,5 +52,5 @@
         "Temp/": true
     },
     "FSharp.suggestGitignore": false,
-    "dotnet.defaultSolution": "BootcampPlatformer.sln"
+    "dotnet.defaultSolution": "BootcampPlatformer_Public.sln"
 }
