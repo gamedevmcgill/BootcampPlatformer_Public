@@ -1258,7 +1258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody: {fileID: 1674399832}
-  gravity: {x: 0, y: -19.62, z: 0}
+  gravity: {x: 0, y: -39.24, z: 0}
   walkSpeed: 20
   acceleration: 100
   deceleration: 200
